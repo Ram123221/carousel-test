@@ -44,7 +44,7 @@ function App() {
           return (
             <div className="carousel-item" key={`carousel-item${index}`} style={{transform: "translateX(-100%)"}}>
 
-              <img src={image} lazy-loading='true' style={{transform: rightClicked?`translateX(100%)`:leftClicked?`translateX(-100%)`:`translateX(0%)`, transition:(rightClicked || leftClicked)?"transform 0s":"transform 2s"}} alt="" />
+              <img src={image} lazy-loading='true' style={{transform: rightClicked?`translateX(100%)`:leftClicked?`translateX(-100%)`:`translateX(0%)`, transition:(rightClicked || leftClicked)?"transform 0s":"transform 2s"}} alt={`image${index}`} />
 
               <h1 style={{transform: rightClicked?`translateX(100%)`:leftClicked?`translateX(-100%)`:`translate(-50%,-50%)`, transition:(rightClicked || leftClicked)?"transform 0s":"transform 2s"}}>
               This is menu item-{duplicateImages[index]}
