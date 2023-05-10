@@ -1,5 +1,5 @@
 const images:string[] =[
-    './images/item-1.jpg',
+    'https://github.com/Ram123221/carousel-react/src/images/item-1.jpg',
     './src/images/item-2.jpeg',
     './src/assets/images/item-3.jpeg',
     './src/assets/images/item-4.jpeg',
