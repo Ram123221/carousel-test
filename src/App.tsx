@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.scss';
 import images from './components/images';
 import {FaAngleDoubleRight, FaAngleDoubleLeft} from 'react-icons/fa';
