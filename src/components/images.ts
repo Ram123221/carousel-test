@@ -1,6 +1,6 @@
 const images:string[] =[
-    './src/assets/images/item-1.jpg',
-    './src/assets/images/item-2.jpeg',
+    './images/item-1.jpg',
+    './src/images/item-2.jpeg',
     './src/assets/images/item-3.jpeg',
     './src/assets/images/item-4.jpeg',
     './src/assets/images/item-5.jpeg',
